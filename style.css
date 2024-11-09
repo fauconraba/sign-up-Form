@@ -1,0 +1,38 @@
+.First , .Last{
+   
+    color:gray;
+    padding: 10px 10px;
+    border:1px solid rgba(148, 148, 148, 0.718);
+    border-radius: 6px;
+    
+    margin-bottom: 5px;
+}
+.First{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.Email{
+    margin-top: 8px;
+    display: block;
+    padding: 10px  16px;
+    margin-left: 10px;
+    /* to fix the problem because email with padding change */
+    width:340px;
+    border : 1px solid rgba(148, 148, 148, 0.718);;
+    border-radius: 6px;
+}
+.btn-signup{
+    color:white;
+    background-color: rgb(62, 149, 255);
+    margin-top: 8px;
+    margin-left: 10px;
+    border:none;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 8px 162px;
+    transition: opacity 0.15s;
+}
+.btn-signup:hover{
+    cursor:pointer;
+    opacity:0.7;
+}
